@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> about html</title>
+    <!--link is used to show the icon on web browser-->
+    <link rel="icon" href="./watsapp.1.ico">
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <a href="#para1">open para1</a>
+    <!--combination of tag and data is called element -->
+    <h1>Html</h1>
+    <p>This is html language, paragraph</p>
+    <pre>this     is     a 
+        pre tag
+    </pre>
+    <hr>
+    <!--Anchor tag is used to redirect one page to another page-->
+    <a href="https://www.youtube.com/">youtube</a><br>
+    <!--Formating tags:-it gives style to data-->
+    <p>hii <del>this</del> I am <b>Tiru</b> from <i>Bobbili</i> which is <u>Located</u> in vzm <sup>dist</sup>
+     and <sub>tech</sub> in <strong>kkd</strong> and <small>ECE</small> and <em>this</em> is your <mark>Frd</mark>
+     inserted <ins>data</ins></p><br>
+     <!--Images:- this is used to display the images src:- source path it 
+     may be absolute or relative path. this is void tag.-->
+     <img src="./sea.jpg" width="300" height="200"><br>
+     <!--Qutation tag this gives data in quotations::::
+     block quote is display by the indentation space.-->
+     <q>This is a quotation</q>
+     <blockquote>This is blockquote</blockquote><br>
+     <!--Block level tag means it occupies the row :::: Inline tag means it doesnot take complete row-->
+     <!--Abbrivation tag -->
+     <abbr title="Hyper text markup lang">HTML</abbr>
+     <!--Cite tag : it displays data in italic style :::BDO tag bi directional tag ::: Adress tag,-->
+     hii this is a <cite>Cite tag</cite> in html <br>
+     hii thi s is <bdo dir="rtl">bdo tag</bdo>
+     hii tis is <address>city:HYD , road:LINE-2
+     </address><hr>
+     <!--Lists:- order,unorder,data-dl[dt(data term) and dd(data discription)]. Nested list.-->
+     <ol>
+        <li>ol1</li>
+        <li>ol2</li>
+     </ol>
+     <ul>
+        <li>ul1</li>
+        <li>ul2</li>
+     </ul>
+     <dl>
+        <dt>HTML:</dt>
+        <dd>Hyper text markup lang</dd>
+     </dl>
+     <ol>
+        <li>ol1</li>
+        <ul>
+            <li>ul1</li>
+        </ul>
+     </ol>
+     <hr>
+     <!--Tables:tr,th,td, call group: is used to coloring,rowspan and colspan in tag-->
+     <table border="2px" align="center" cellspacing="50px">
+      <caption>sample table</caption>
+        <colgroup>
+            <col bgcolor="green">
+            <col bgcolor="yellow">
+        </colgroup>
+        <tr>
+            <th rowspan="2">row1</th>
+            <th colspan="2">row2</th>
+            <th>row3</th>
+        </tr>
+        <tr>
+        <td>o1</td>
+        <td>11</td>
+        <td rowspan="2">tab</td>
+        </tr>
+        <tr>
+        <td>02</td>
+        <td>12</td>
+        <td bgcolor="red">22</td>
+        </tr>
+     </table><hr>
+     <!--Iframe it is inline frame.used to display videos,map,webpages-->
+     <iframe src="https://www.google.co.in/embed/"></iframe><br>
+     <!--Forms;;legend,fieldset.-->
+     <form>
+      <fieldset>
+         <legend>sampleform</legend>
+        <input type="text" id="name" placeholder="enter name"autofocus>
+        <label for="name">Name</label><br>
+        <input type="fsrch" id="fsrch" placeholder="search here"><br>
+        <label for="">temp</label>
+        <meter id="name" value="8" min="0" max="10">2 out of 10</meter>
+        <button type="submit">click</button>
+      </fieldset>
+     </form>
+     <!--class and id's and html entities-->
+     <h2>para1</h2>
+     <p id="para1">Lorem ipsum dolor sit amet.&#12875;&#15678;&#25657;</p>
+     <!--Multi media; both audio and video-->
+     <audio controls>
+        <source src="./kalki.mp3" type="audio/mp3">
+     </audio>
+     <video controls poster="./sea.jpg" width="200" height="150">
+        <source src="" type="video/mp4">
+     </video><hr>
+     <!-- figures using figcaption and also entities means symbols using'&'-->
+     <figure>
+        <img src="./sea.jpg" alt="beach" width="400" height="200">
+        <figcaption>vizag beach &lt;&gt;</figcaption>
+     </figure>
+</body>
+</html>
